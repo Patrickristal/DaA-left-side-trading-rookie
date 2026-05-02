@@ -1,0 +1,12 @@
+# Core data layer
+akshare>=1.18         # Primary data source for A-share + HK + macro
+pandas>=2.0           # DataFrame manipulation in scripts/
+numpy>=1.24           # Numerical computation in ta_factors.py + fund_flow.py
+
+# Optional: PDF report generation (only needed if you use examples/md_to_pdf.py)
+reportlab>=4.0
+markdown>=3.5
+
+# Optional: Xueqiu sentiment fallback uses stdlib urllib by default;
+# install requests if you want a friendlier HTTP layer
+# requests>=2.31

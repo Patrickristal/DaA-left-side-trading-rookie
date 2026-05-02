@@ -109,7 +109,7 @@ M4 下次论点登记 ─→ 检索历史相似论点 + 经验标签 ─→ 提�
 **Claude Code**：
 
 ```bash
-git clone https://github.com/<你的用户名>/da-a-hk-trading-strategist.git ~/.claude/skills/da-a-hk-trading-strategist
+git clone https://github.com/Patrickristal/DaA-left-side-trading-rookie.git ~/.claude/skills/da-a-hk-trading-strategist
 ```
 
 **Claude Agent SDK**：解压后在 system prompt 注入 `SKILL.md` 内容。
